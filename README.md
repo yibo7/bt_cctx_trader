@@ -6,6 +6,9 @@
     backtrader则是直接集成了ccxt
     因为这些用户体验的原因，我选择了backtrader+ccxt，但不代表这是最好的选择，如果有更好的方案，欢迎大家多交流，给我留言
 
+# python 版本
+python 3.7
+
 # ccxt
 python官网对于ccxt的介绍是
 即一个封装了诸多数字货币交易平台的api的开源库。
