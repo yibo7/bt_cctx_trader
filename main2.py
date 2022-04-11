@@ -1,7 +1,7 @@
 
 import backtrader as bt
+# import ccxt
 import pandas as pd
-
 
 class TestStrategy(bt.Strategy):
     def next(self):
@@ -10,6 +10,7 @@ class TestStrategy(bt.Strategy):
 
 if __name__ == '__main__':
     # print(ccxt.exchanges)
+
     cerebro = bt.Cerebro()
     df = pd.read_csv('data/1.csv')
     df['datetime'] = pd.to_datetime(df['datetime'])

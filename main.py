@@ -1,9 +1,10 @@
 from __future__ import (absolute_import, division, print_function, unicode_literals)
-from datetime import datetime, timedelta
-import backtrader as bt
-import ccxt
-from backtrader import cerebro
+
 import time
+from datetime import datetime, timedelta
+
+import backtrader as bt
+from backtrader import cerebro
 
 
 def connect_broker():
